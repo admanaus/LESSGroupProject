@@ -1,0 +1,32 @@
+.email-row {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #73AD21;
+}
+.email-row .avatar {
+  min-width: 50px;
+  max-width: 50px;
+  border-radius: 50%;
+  border: 1px solid #73AD21;
+}
+.email-row .name {
+  min-width: 120px;
+  max-width: 120px;
+  text-align: left;
+  margin: auto;
+  border: 1px solid #73AD21;
+}
+.email-row .subject {
+  text-align: left;
+  min-width: 130px;
+  max-width: 130px;
+  margin: auto;
+  border: 1px solid #73AD21;
+}
+.email-row .date {
+  text-align: right;
+  min-width: 100px;
+  max-width: 100px;
+  margin: auto;
+  border: 1px solid #73AD21;
+}

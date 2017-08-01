@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
 import { InboxComponent } from './inbox/inbox.component';
 import { MessageComponent } from './message/message.component';
+import {EmailDataService} from "./services/email-data.service";
 
 @NgModule({
   declarations: [
@@ -16,7 +17,9 @@ import { MessageComponent } from './message/message.component';
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [
+    EmailDataService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
