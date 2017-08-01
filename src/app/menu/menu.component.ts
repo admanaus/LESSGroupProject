@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MenuComponent implements OnInit {
 
+  menuBoxes: string[] = ['Inbox', 'Sent', 'Drafts' ];
+  labels: string[] = ['Work', 'Fashion', 'Animals', 'Code'];
   constructor() { }
 
   ngOnInit() {

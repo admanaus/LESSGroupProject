@@ -1,16 +1,22 @@
 
-
+// Mix-ins
 .standard-col {
   flex-shrink: 1;
   width: 50%;
   justify-content: center;
   text-align: center;
 }
+// End mix-ins
+
+body, html{
+  height: 100%;
+}
 
 .container {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  height: 100%;
 
   .col-menu{
     min-width: 250px;
@@ -21,12 +27,11 @@
   .col-inbox {
     .standard-col;
     background-color: beige;
-
   }
 
-    .col-message{
+  .col-message{
       .standard-col;
       background-color: #bada55;
-    }
   }
+}
 
