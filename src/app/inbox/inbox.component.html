@@ -1,15 +1,44 @@
-<p>
-  inbox works!
-</p>
+<div class="inbox-container">
 
-<div *ngIf="emailData">
-  <div *ngFor="let email of emailData" class="email-row">
-    <img src="{{email.avatar}}" alt="" class="avatar">
-    <div class="name">{{email.first_name}} {{email.last_name}}</div>
-    <div class="subject">{{email.subject}} </div>
-    <div class="date">{{email.date}}</div>
+  <div class="search-row">
+    <h1 class="inbox">Inbox</h1>
+    <div class="search">
+      <div>
+        <div class="search-icon">
+          <i class="material-icons">search</i>
+        </div>
+        <div>
+          <input class="search-box" type="text" >
+        </div>
+      </div>
+    </div>
 
   </div>
+
+  <div class="icon-row">
+    <div class="icons">
+      <i class="material-icons icon">face</i>
+      <i class="material-icons icon">email</i>
+      <i class="material-icons icon">favorite</i>
+      <i class="material-icons icon">done</i>
+    </div>
+    <div class="sorting">
+      <h4>Alphabetically</h4>
+      <h4>Recent</h4>
+    </div>
+  </div>
+
+  <div *ngIf="emailData">
+    <div *ngFor="let email of emailData" class="email-row" (click)="showMessage()" >
+      <img src="{{email.avatar}}" alt="" class="avatar">
+      <div class="name">{{email.first_name}} {{email.last_name}}</div>
+      <div class="subject">{{email.subject}} </div>
+      <div class="date">{{email.date}}</div>
+
+    </div>
+  </div>
+
 </div>
+
 
 

@@ -24,7 +24,7 @@ html {
   width: 50%;
   justify-content: center;
   text-align: center;
-  background-color: beige;
+  background-color: white;
 }
 .container .col-message {
   flex-shrink: 1;

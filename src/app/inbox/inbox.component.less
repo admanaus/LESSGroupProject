@@ -1,22 +1,110 @@
 
+@green-border: 1px solid #73AD21;
+@roboto-font:'Roboto', sans-serif;
 
-.email-row{
+
+//Mix-ins
+.flex-row{
   display: flex;
   flex-direction: row;
-  border: 1px solid #73AD21;
+}
+//End Mix-ins
+
+.inbox-container{
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.search-row{
+
+  .flex-row;
+  font-family: @roboto-font;
+  justify-content: space-between;
+
+  .inbox{
+
+  }
+  .search{
+
+    text-align: right;
+    //border: @green-border;
+    margin-top: auto;
+    margin-bottom: auto;
+    position: relative;
+    .search-box{
+      height: 30px;
+      width: 200px;
+      border: 1px solid darkgray;
+      border-radius: 10px;
+    }
+    .search-icon{
+      position: absolute;
+      margin-top: auto;
+      margin-bottom: auto;
+      top: 6px;
+      right: 5px;
+    }
+
+  }
+}
+
+.icon-row{
+  //border: @green-border;
+  .flex-row;
+  justify-content: space-between;
+  color: darkgray;
+
+  .icons{
+    text-align: left;
+    margin-top: auto;
+    margin-bottom: auto;
+
+    .icon{
+      &:hover{
+        color: black;
+      }
+    }
+  }
+  .sorting{
+    .flex-row;
+    text-align: right;
+    margin-top: auto;
+    padding-bottom: 10px;
+
+    h4{
+      padding-left: 15px;
+      padding-right: 15px;
+      &:hover{
+        color: black;
+        border-bottom: 1px solid
+      }
+    }
+
+
+  }
+}
+
+.email-row{
+  .flex-row;
+  //border: 1px solid #73AD21;
+  font-family: @roboto-font;
+  &:hover{
+    background-color: lightgrey;
+  }
+
 
     .avatar{
       min-width: 50px;
       max-width: 50px;
       border-radius:50%;
-      border: 1px solid #73AD21;
+      //border: 1px solid #73AD21;
     }
     .name{
       min-width: 120px;
       max-width: 120px;
       text-align: left;
       margin: auto;
-      border: 1px solid #73AD21;
+      //border: 1px solid #73AD21;
 
     }
     .subject{
@@ -24,14 +112,14 @@
       min-width: 130px;
       max-width: 130px;
       margin: auto;
-      border: 1px solid #73AD21;
+      //border: 1px solid #73AD21;
     }
     .date{
       text-align: right;
       min-width: 100px;
       max-width: 100px;
       margin: auto;
-      border: 1px solid #73AD21;
+      //border: 1px solid #73AD21;
     }
 }
 

@@ -18,4 +18,8 @@ export class InboxComponent implements OnInit {
     this.emailData = this.emailDataService.getData();
   }
 
+  showMessage(email){
+
+  }
+
 }
