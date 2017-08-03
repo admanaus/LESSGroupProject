@@ -21,6 +21,7 @@ export class EmailDataService {
     "email": "jbrydson1@domainmarket.com",
     "avatar": "https://robohash.org/omnisvoluptatemest.png?size=50x50&set=set3",
     "date": "8/15/2016",
+      "tags": "Design",
     "subject": "OLTP",
     "body": "Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.\n\nIn hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.\n\nAliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis."
   }, {
@@ -48,6 +49,7 @@ export class EmailDataService {
       "email": "bjarad4@theglobeandmail.com",
       "avatar": "https://robohash.org/sunthicrerum.bmp?size=50x50&set=set3",
       "date": "1/13/2016",
+      "tags" : "Code",
       "subject": "Product Life Cycle",
       "body": "Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.\n\nMorbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem."
   }, {

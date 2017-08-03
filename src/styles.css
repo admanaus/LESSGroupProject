@@ -48,7 +48,7 @@ html {
   justify-content: space-between;
 }
 .search-row .inbox {
-  text-space: 4px;
+  letter-spacing: 6px;
   color: black;
 }
 .search-row .search {
@@ -106,6 +106,8 @@ html {
 .email-row {
   display: flex;
   flex-direction: row;
+  padding-top: 5px;
+  padding-bottom: 5px;
   border-top: 1px solid #828282;
   font-family: 'Roboto', sans-serif;
 }
@@ -117,11 +119,23 @@ html {
   max-width: 50px;
   border-radius: 50%;
 }
+.email-row .avatar:hover {
+  border: 3px solid red;
+}
 .email-row .name {
   min-width: 120px;
   max-width: 120px;
   text-align: left;
   margin: auto;
+}
+.email-row .tags {
+  font-family: 'Roboto', sans-serif;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: white;
+  margin: auto;
+  background-color: #ffc672;
+  border-radius: 10px;
 }
 .email-row .subject {
   text-align: left;
@@ -132,8 +146,8 @@ html {
 }
 .email-row .date {
   text-align: right;
-  min-width: 100px;
-  max-width: 100px;
+  min-width: 130px;
+  max-width: 130px;
   margin: auto;
   color: #828282;
 }
