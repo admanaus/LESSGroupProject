@@ -31,7 +31,7 @@ html {
   width: 50%;
   justify-content: center;
   text-align: center;
-  background-color: #bada55;
+  background-color: white;
 }
 .flex-row {
   display: flex;

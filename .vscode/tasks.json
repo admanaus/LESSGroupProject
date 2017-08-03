@@ -11,7 +11,13 @@
         {
             "taskName": "Less Compile",
             "type": "shell",
-            "command": "lessc styles.less styles.css",
+            "command": "lessc src/styles.less src/styles.css",
+            "group": "build"
+        },
+        {
+            "taskName": "Less Compile Content",
+            "type": "shell",
+            "command": "lessc src/app/message/message.component.less src/app/message/message.component.css",
             "group": "build"
         }
     ]

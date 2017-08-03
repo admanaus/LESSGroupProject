@@ -31,7 +31,7 @@ html {
   width: 50%;
   justify-content: center;
   text-align: center;
-  background-color: #bada55;
+  background-color: white;
 }
 .flex-row {
   display: flex;
@@ -150,4 +150,20 @@ html {
   max-width: 130px;
   margin: auto;
   color: #828282;
+}
+.message-container {
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  padding: 10px;
+  background-color: white;
+}
+.message-container .message-header h1 {
+  font-size: 32px;
+}
+.message-container .message-header p {
+  font-size: 12px;
+}
+.message-container .message-underline {
+  background-color: #777;
+  height: 1px;
 }

@@ -1,16 +1,18 @@
-<section>
-  <h1>Theory of Design</h1>
-  <p>from {{this.emailData[0].first_name}} {{this.emailData[0].last_name}} to You - 16th November, 3:04 PM</p>
-</section>
-<div></div>
-<section>
-  <p>{{this.text}}</p>
-  <div>
-    <div>Attachments</div><div>Button</div>
-  </div>
-  <textarea></textarea>
-  <div>
-    <div>Location</div>
-    <div>Button</div>
-  </div>
-<section>
+<div class='message-container'>
+  <section class='message-header'>
+    <h1>{{this.emailData[0].subject}}</h1>
+    <p>from {{this.emailData[0].first_name}} {{this.emailData[0].last_name}} to You - 16th November, 3:04 PM</p>
+  </section>
+  <div class='message-underline'></div>
+  <section class='message-body'>
+    <p>{{this.text}}</p>
+    <div class='message-attachments'>
+      <div>Attachments</div><div>Button</div>
+    </div>
+    <textarea></textarea>
+    <div>
+      <div>Location</div>
+      <div>Button</div>
+    </div>
+  </section>
+</div>

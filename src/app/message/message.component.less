@@ -1,0 +1,36 @@
+@import "../../styles.less";
+
+.message-container {
+    font-family: @global-font;
+    text-align: left;
+    padding: 10px;
+    padding-right: 40px;
+    background-color: white;
+
+    .message-header {
+        margin: 0;
+
+        h1 {
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 12px;
+        }
+
+    }
+
+    .message-underline {
+        background-color: #eee;
+        height: 1px;
+    }
+
+    .message-attachments {
+        border: 1px solid #eee;
+        background-color: #fdfdfd;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+}
