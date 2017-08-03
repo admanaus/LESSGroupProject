@@ -1,3 +1,5 @@
+@import "../../styles.less";
+
 .button {
   padding: 10px 30px;
   text-align: center;
@@ -14,22 +16,34 @@
   background-color: #f44336;
   color: white;
   border: 2px solid white;
+  &:hover {
+    background-color: white;
+    color: #f44336;
+  }
 }
 
-.button-menu:hover {
-  background-color: white;
-  color: #f44336;
-}
+
+
+
 
 .text{
-  color: white;
+  color: @perfect-grey;
   font-size: 16px;
 }
 
-.color{
-  color: white;
+
+.menuBoxes {
+  text-align: left;
+  color: @perfect-grey;
+  padding-left: 20px;
+  padding-top: 50px;
+
+  }
+.menuIcon {
+  &:hover {
+    color: white;
+    border-bottom: 1px solid
 }
 
-.material-icons.md-light {
-  color: rgba(255, 255, 255, 1);
 }
+

@@ -3,20 +3,40 @@
 
   <button class="button button-menu">Compose</button>
 
-  <div>
-   <i class="material-icons color">Inbox</i>
-  </div>
-  <div>
-    <i class="material-icons icons">present_to_all</i>
+  <div class="menuBoxes">
+    <div class="menuIcon">
+      <i class="material-icons">mail_outline</i>
+      Inbox
+    </div>
+    <div class="menuIcon">
+      <i class="material-icons">present_to_all</i>
+      Sent
+    </div>
+    <div class="menuIcon">
+      <i class="material-icons">drafts</i>
+      Drafts
+    </div>
   </div>
 
-  <div *ngFor="let item of menuBoxes" class="text">
-    {{item}}
+  <br><br>
 
+  <div class="menuBoxes">
+    <p>Labels</p>
+    <div class="menuIcon">
+      <i class="material-icons">album</i>
+      Work
+    </div>
+    <div class="menuIcon">
+      <i class="material-icons">not_interested</i>
+      Fashion
+    </div>
+    <div class="menuIcon">
+      <i class="material-icons">report</i>
+      Animals
+    </div>
+    <div class="menuIcon">
+      <i class="material-icons">insert_emoticon</i>
+      Code
+    </div>
   </div>
-<br><br>
-  <div *ngFor="let item of labels" class="text">
-    {{item}}
-  </div>
-
 </div>
