@@ -7,6 +7,8 @@
 body,
 html {
   height: 100%;
+  margin: 0;
+  padding: 0;
 }
 .container {
   display: flex;
@@ -54,14 +56,18 @@ html {
   color: #f44336;
 }
 .text {
-  color: white;
+  color: #828282;
   font-size: 16px;
 }
-.color {
-  color: white;
+.menuBoxes {
+  text-align: left;
+  color: #828282;
+  padding-left: 20px;
+  padding-top: 50px;
 }
-.material-icons.md-light {
-  color: #ffffff;
+.menuIcon:hover {
+  color: white;
+  border-bottom: 1px solid;
 }
 .flex-row {
   display: flex;
