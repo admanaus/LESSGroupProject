@@ -16,7 +16,7 @@ html {
 }
 .container .col-menu {
   min-width: 250px;
-  background-color: aqua;
+  background-color: black;
   text-align: center;
 }
 .container .col-inbox {
@@ -32,6 +32,36 @@ html {
   justify-content: center;
   text-align: center;
   background-color: white;
+}
+.button {
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.button-menu {
+  background-color: #f44336;
+  color: white;
+  border: 2px solid white;
+}
+.button-menu:hover {
+  background-color: white;
+  color: #f44336;
+}
+.text {
+  color: white;
+  font-size: 16px;
+}
+.color {
+  color: white;
+}
+.material-icons.md-light {
+  color: #ffffff;
 }
 .flex-row {
   display: flex;
@@ -150,4 +180,31 @@ html {
   max-width: 130px;
   margin: auto;
   color: #828282;
+}
+.message-container {
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  padding: 10px;
+  padding-right: 40px;
+  background-color: white;
+}
+.message-container .message-header {
+  margin: 0;
+}
+.message-container .message-header h1 {
+  font-size: 40px;
+}
+.message-container .message-header p {
+  font-size: 12px;
+}
+.message-container .message-underline {
+  background-color: #eee;
+  height: 1px;
+}
+.message-container .message-attachments {
+  border: 1px solid #eee;
+  background-color: #fdfdfd;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
 }

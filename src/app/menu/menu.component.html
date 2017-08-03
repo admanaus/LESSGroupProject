@@ -1,11 +1,22 @@
-<p>
-  menu works!
-</p>
 
-<div *ngFor="let item of menuBoxes">
-  {{item}}
-</div>
+<div>
+
+  <button class="button button-menu">Compose</button>
+
+  <div>
+   <i class="material-icons color">Inbox</i>
+  </div>
+  <div>
+    <i class="material-icons icons">present_to_all</i>
+  </div>
+
+  <div *ngFor="let item of menuBoxes" class="text">
+    {{item}}
+
+  </div>
 <br><br>
-<div *ngFor="let item of labels">
-  {{item}}
+  <div *ngFor="let item of labels" class="text">
+    {{item}}
+  </div>
+
 </div>

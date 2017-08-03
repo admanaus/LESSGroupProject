@@ -16,7 +16,7 @@ html {
 }
 .container .col-menu {
   min-width: 250px;
-  background-color: aqua;
+  background-color: black;
   text-align: center;
 }
 .container .col-inbox {
@@ -33,6 +33,36 @@ html {
   text-align: center;
   background-color: white;
 }
+.button {
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.button-menu {
+  background-color: #f44336;
+  color: white;
+  border: 2px solid white;
+}
+.button-menu:hover {
+  background-color: white;
+  color: #f44336;
+}
+.text {
+  color: white;
+  font-size: 16px;
+}
+.color {
+  color: white;
+}
+.material-icons.md-light {
+  color: #ffffff;
+}
 .flex-row {
   display: flex;
   flex-direction: row;
@@ -48,7 +78,7 @@ html {
   justify-content: space-between;
 }
 .search-row .inbox {
-  text-space: 4px;
+  letter-spacing: 6px;
   color: black;
 }
 .search-row .search {
@@ -106,6 +136,8 @@ html {
 .email-row {
   display: flex;
   flex-direction: row;
+  padding-top: 5px;
+  padding-bottom: 5px;
   border-top: 1px solid #828282;
   font-family: 'Roboto', sans-serif;
 }
@@ -117,11 +149,23 @@ html {
   max-width: 50px;
   border-radius: 50%;
 }
+.email-row .avatar:hover {
+  border: 3px solid red;
+}
 .email-row .name {
   min-width: 120px;
   max-width: 120px;
   text-align: left;
   margin: auto;
+}
+.email-row .tags {
+  font-family: 'Roboto', sans-serif;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: white;
+  margin: auto;
+  background-color: #ffc672;
+  border-radius: 10px;
 }
 .email-row .subject {
   text-align: left;
@@ -132,8 +176,8 @@ html {
 }
 .email-row .date {
   text-align: right;
-  min-width: 100px;
-  max-width: 100px;
+  min-width: 130px;
+  max-width: 130px;
   margin: auto;
   color: #828282;
 }
