@@ -1,7 +1,5 @@
 
 @green-border: 1px solid #73AD21;
-@roboto-font:'Roboto', sans-serif;
-
 
 //Mix-ins
 .flex-row{
@@ -18,11 +16,11 @@
 .search-row{
 
   .flex-row;
-  font-family: @roboto-font;
+  font-family: @global-font;
   justify-content: space-between;
 
   .inbox{
-
+    color: black;
   }
   .search{
 
@@ -34,7 +32,7 @@
     .search-box{
       height: 30px;
       width: 200px;
-      border: 1px solid darkgray;
+      border: 1px solid @perfect-grey;
       border-radius: 10px;
     }
     .search-icon{
@@ -52,7 +50,7 @@
   //border: @green-border;
   .flex-row;
   justify-content: space-between;
-  color: darkgray;
+  color: @perfect-grey;
 
   .icons{
     text-align: left;
@@ -74,6 +72,7 @@
     h4{
       padding-left: 15px;
       padding-right: 15px;
+      font-family: @global-font;
       &:hover{
         color: black;
         border-bottom: 1px solid
@@ -87,9 +86,9 @@
 .email-row{
   .flex-row;
   //border: 1px solid #73AD21;
-  font-family: @roboto-font;
+  font-family: @global-font;
   &:hover{
-    background-color: lightgrey;
+    background-color: @perfect-grey;
   }
 
 

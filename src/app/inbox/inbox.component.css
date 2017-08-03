@@ -21,7 +21,7 @@
 .search-row .search .search-box {
   height: 30px;
   width: 200px;
-  border: 1px solid darkgray;
+  border: 1px solid #828282;
   border-radius: 10px;
 }
 .search-row .search .search-icon {
@@ -35,7 +35,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  color: darkgray;
+  color: #828282;
 }
 .icon-row .icons {
   text-align: left;
@@ -55,6 +55,7 @@
 .icon-row .sorting h4 {
   padding-left: 15px;
   padding-right: 15px;
+  font-family: 'Roboto', sans-serif;
 }
 .icon-row .sorting h4:hover {
   color: black;
@@ -66,7 +67,7 @@
   font-family: 'Roboto', sans-serif;
 }
 .email-row:hover {
-  background-color: lightgrey;
+  background-color: #828282;
 }
 .email-row .avatar {
   min-width: 50px;
