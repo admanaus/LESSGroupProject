@@ -1,5 +1,7 @@
+@import "../../styles.less";
 
-@green-border: 1px solid #73AD21;
+@hover-grey: #EFEFEF;
+@green-border: 5px solid #73AD21;
 
 //Mix-ins
 .flex-row{
@@ -20,6 +22,7 @@
   justify-content: space-between;
 
   .inbox{
+    text-space: 4px;
     color: black;
   }
   .search{
@@ -36,6 +39,7 @@
       border-radius: 10px;
     }
     .search-icon{
+      color: @perfect-grey;
       position: absolute;
       margin-top: auto;
       margin-bottom: auto;
@@ -51,6 +55,8 @@
   .flex-row;
   justify-content: space-between;
   color: @perfect-grey;
+  border-bottom: 3px black;
+  margin-bottom: 10px;
 
   .icons{
     text-align: left;
@@ -85,12 +91,11 @@
 
 .email-row{
   .flex-row;
-  //border: 1px solid #73AD21;
+  border-top: 1px solid @perfect-grey;
   font-family: @global-font;
   &:hover{
-    background-color: @perfect-grey;
+    background-color: @hover-grey;
   }
-
 
     .avatar{
       min-width: 50px;
@@ -111,14 +116,14 @@
       min-width: 130px;
       max-width: 130px;
       margin: auto;
-      //border: 1px solid #73AD21;
+      color: @perfect-grey;
     }
     .date{
       text-align: right;
       min-width: 100px;
       max-width: 100px;
       margin: auto;
-      //border: 1px solid #73AD21;
+      color: @perfect-grey;
     }
 }
 

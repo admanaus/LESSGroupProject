@@ -48,6 +48,7 @@ html {
   justify-content: space-between;
 }
 .search-row .inbox {
+  text-space: 4px;
   color: black;
 }
 .search-row .search {
@@ -63,6 +64,7 @@ html {
   border-radius: 10px;
 }
 .search-row .search .search-icon {
+  color: #828282;
   position: absolute;
   margin-top: auto;
   margin-bottom: auto;
@@ -74,6 +76,8 @@ html {
   flex-direction: row;
   justify-content: space-between;
   color: #828282;
+  border-bottom: 3px black;
+  margin-bottom: 10px;
 }
 .icon-row .icons {
   text-align: left;
@@ -102,10 +106,11 @@ html {
 .email-row {
   display: flex;
   flex-direction: row;
+  border-top: 1px solid #828282;
   font-family: 'Roboto', sans-serif;
 }
 .email-row:hover {
-  background-color: #828282;
+  background-color: #EFEFEF;
 }
 .email-row .avatar {
   min-width: 50px;
@@ -123,10 +128,12 @@ html {
   min-width: 130px;
   max-width: 130px;
   margin: auto;
+  color: #828282;
 }
 .email-row .date {
   text-align: right;
   min-width: 100px;
   max-width: 100px;
   margin: auto;
+  color: #828282;
 }
